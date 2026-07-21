@@ -75,8 +75,28 @@ As a developer on this project, I was mainly responsible for:
 
 ## Project Structure
 
-
-
+```text
+Unity-Physics-Simulation/
+│
+├── Assets/
+│   ├── Scripts/              # C# scripts controlling simulation logic and interactions
+│   ├── Scenes/               # Unity scenes containing the different simulations
+│   ├── Prefabs/              # Reusable Unity objects and components
+│   ├── Materials/            # Materials used for visual representation
+│   ├── Sprites/              # 2D images and visual assets
+│   ├── Violet Theme UI/      # UI design assets and interface elements
+│   ├── FreeButtonSet/        # Button UI components
+│   ├── TextMesh Pro/         # Text rendering assets
+│   ├── Pixel Skies DEMO/     # Environment/background assets
+│   ├── StreamingAssets/      # External files loaded by the application
+│   └── Settings/             # Unity rendering and project settings
+│
+├── Packages/                 # Unity package dependencies
+│
+├── ProjectSettings/          # Unity project configuration files
+│
+└── README.md                 # Project documentation
+```
 ---
 
 ## Challenges
