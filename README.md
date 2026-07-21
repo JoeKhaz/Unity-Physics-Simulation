@@ -1,111 +1,133 @@
- 
-Document Analyse
+# Unity Physics Simulation
 
+## Overview
 
-Expérience effectuée dans le cadre du cours de
-PROJET D'INTÉGRATION EN SCIENCES, INFORMATIQUE ET MATHÉMATIQ
-420-SF4-RE
+**Unity Physics Simulation** is an interactive educational application developed using **Unity and C#** to visualize electrical and magnetic phenomena through real-time simulations.
 
+The goal of this project is to make abstract physics concepts easier to understand by transforming mathematical equations and theoretical concepts into interactive visual experiences.
 
+The application allows users to explore different physics simulations related to electricity and magnetism, making it useful for students, teachers, and anyone interested in understanding physical phenomena.
 
-Par
-Joe Khazzaka, Rafayel Petrosyan, Leonard Cuptor
-Groupe : 02
+---
 
+## Features
 
+- Interactive physics simulations
+- Electrical and magnetic field visualization
+- Real-time object interactions
+- Simulation selection interface
+- Custom Unity scenes and UI navigation
+- Physics-based calculations implemented in C#
 
+---
 
+## Simulations Included
 
+###  Circuit Simulation
 
+Visualizes electrical circuits and allows users to better understand electrical concepts through interactive elements.
 
-
-Présenté à : Monsieur Raouf Babari
-13 février 2026
-
-
-
-
-2 - Description du projet
-
-2.1 - Présentation de l’équipe
-Rafayel Petrosyan : Recherche sur la physique, 2 simulations de physique sur unity, logique des simulations (C#)
-Joe Khazzaka : UI de l’application (sélecteur de simulation), au moins 1 simulation sur unity, logique des simulations (C#)
-Léonard Cuptor : Recherche sur la physique, 2 simulations de physique sur unity, logique des simulations (C#)
-
-2.2 - L’idée
-Le problématique que nous cherchons à résoudre avec ce projet est la difficulté à imaginer les phénomènes de physiques. Tandis que l’objectif est de simuler sur l’ordinateur les phénomènes physique (en électricité et en magnétisme) qu’on voit à tous les jours, mais qu’on ne comprend pas forcément.
-
-2.3 - l’utilité
-Notre application servira à toutes les personnes qui ont potentiellement de la misère en physique notamment les étudiants du cégép. Aussi, il pourrait être utilisé pour faire des démonstrations devant un grand nombre de personne.
-
-Problème résolu : permet aux étudiants d'université, du collège et du secondaire de mieux visualiser les phénomènes physiques leur permettant ainsi de mieux réussir leur cours. Les gens curieux qui ne sont pas étudiants peuvent également profiter de l'application s'ils désirent accumuler leurs connaissances générales.
-
-2.4 - L’innovation
-Nouveauté : Ce type de projet n’a pas été fait encore sur Unity parce que tu ne peux pas coder avec Java Script (qui est le langage idéal pour faire les simulations que nous voulons faire) dans ce moteur.
+<img width="1275" height="572" alt="SS circuit" src="https://github.com/user-attachments/assets/1b927a99-74b5-433b-9b80-2e1980cf133d" />
 
 
 
-2.5 - Cas d’utilisation
-Les acteurs sont les étudiants du collège et les personnes curieuses d’en apprendre plus sur la physique en générales.
+###  Magnetic Field Simulation
 
-Il y a plusieurs scénarios possibles avec notre application. Tout d’abord, notre projet peut être utiliser pour prendre de l’avance dans ses cours de physiques en apprenant plus sur certain concept d’électricité ou magnétisme. De plus, les professeurs pourront se servir de nos simulations pour faire des démonstrations devant leur classe pour clarifier certains concepts sans avoir besoin beaucoup de matériel.
+Demonstrates magnetic fields and interactions between magnetic objects.
 
-2.6 - Liens avec les autres matières
-L’application a un lien très fort avec l’informatique (nous devrons coder toute la logique pour faire marcher ces phénomènes physiques) et avec les sciences (nous devrons utiliser nos connaissances en physique pour la logique). 
-
-3 – Technologies utilisées
-
-3.1- Outils et environnements
-En tant que les technologies utilisées, nous devrons apprendre un nouveau langage de programmation (le C#) et utiliser un IDE qu’on n’a jamais utiliser auparavant (Unity) et un outil collaboratif (Git).
-
-3.2 - Justification des choix
-Nous sommes très passionnés par les différents phénomènes causés par l'électricité et le magnétisme. Aussi, depuis le secondaire, nous avons souvent eu de la difficulté dans nos cours de physique à cause de leur complexité et parce que nous ne les avons presque jamais vu en pratique/ en détail.
-
-3.3 - Défis et difficulté
-Un très grand enjeu que nous aurons est que nous devrons apprendre toute la théorie en physique derrière tous les phénomènes qu’on simule et apprendre et utiliser des formules physiques très avancées
-
-4 – Plan de travail en équipe
-
-4.1 - Vues
- Les images ci-dessous sont des prototypes très simplifiés dessiner à l’aide de Paint3D pour donner une idée de notre application.
-    <img width="500" height="235" alt="image" src="https://github.com/user-attachments/assets/097b8a16-228b-438b-87d8-400ee6db2f38" />
-    <img width="429" height="201" alt="image" src="https://github.com/user-attachments/assets/94ca8147-e5a7-4d2c-b9c4-806999f7504d" />
-    <img width="474" height="437" alt="image" src="https://github.com/user-attachments/assets/eb11b108-0dc7-4a51-b21b-03554e79a5bc" />
-    <img width="454" height="419" alt="image" src="https://github.com/user-attachments/assets/ddbd2c2b-6225-40d6-9e05-75623edf9f26" />
-    <img width="926" height="435" alt="image" src="https://github.com/user-attachments/assets/587028f5-e14d-47bb-a485-b7e4255a30bd" />
-
-    
+<img width="1627" height="798" alt="SS champ mag" src="https://github.com/user-attachments/assets/2b75f446-40c8-451d-9b2b-31b94a009ec2" />
 
 
 
- 
-4.2 - Diagramme UML
+### 🔬 Additional Physics Simulations
 
-![UML prog](https://github.com/user-attachments/assets/c59e0774-32a6-464d-94dd-18f3c62e0ad5)
+The application includes multiple simulations exploring different physics concepts involving electricity and magnetism.
 
-
-Document Analyse partie 2
-
-Preuves d’exécutions du projet : 
-
- Voir vidéo de notre application.
-
-Difficultés rencontrées : 
-
-Au cours de la réalisation de notre projet, on a rencontré plusieurs difficultés. Tout d’abord, la première difficulté rencontrée était le fait qu’on codait en C# parce que personne dans notre équipe était familier avec ce langage de programmation alors on a dû apprendre le plus possible toutes les fonctions utiles à notre projet. Aussi, on a rencontré un autre défi qui était d’intégrer le plus précisément possible les équations de physique pour bien simuler les scènes. On a aussi rencontré des défis concernant l’utilisation des fonctions UI sur Unity puisque c’est un engin qu’on n’a aussi jamais utilisé alors on a regardé plusieurs tutoriels pour apprendre comment faire un menu principal et relier les scènes ensembles. Nous avons également rencontré des défis liés à la gestion des interactions entre les objets (comme les boussoles, les aimants ou les particules), ainsi qu’à l’organisation du code pour garder un projet clair et fonctionnel. Enfin, le manque de temps nous a parfois empêchés d’implémenter toutes les idées souhaitées ou de perfectionner certains aspects du projet.
-Perspectives : 
-
-Si nous avions eu plus de temps, nous aurions enrichi nos projets en les rendant entièrement en 3D afin d’offrir une visualisation plus immersive et fidèle des phénomènes. Nous aurions également intégré plusieurs aimants et plusieurs fils conducteurs pour mieux illustrer la superposition des champs magnétiques et leurs interactions. Il aurait été pertinent d’ajouter des contrôles permettant de varier l’intensité du courant et de déplacer librement le fil conducteur dans l’espace, rendant l’expérience plus interactive et expérimentale. Enfin, l’ajout de graphiques aurait permis de représenter certaines données et d’apporter une dimension analytique supplémentaire, renforçant ainsi la compréhension globale du comportement observé.
+<img width="1712" height="895" alt="SS fil mag" src="https://github.com/user-attachments/assets/957efb62-3456-40f8-9d7c-67f9e1d92a0e" />
+<img width="1276" height="574" alt="SS boussole" src="https://github.com/user-attachments/assets/842403d3-7f98-47cb-ae04-d3799c1e3da2" />
+<img width="1273" height="575" alt="SS pendule" src="https://github.com/user-attachments/assets/168d657e-2e31-4700-953a-e7af487c728d" />
 
 
-UML
- 
-<img width="940" height="748" alt="image" src="https://github.com/user-attachments/assets/3a325b3d-ac7a-44d6-9336-692d11a35147" />
+---
+
+## Technologies Used
+
+| Technology | Usage |
+|---|---|
+| Unity | Game engine and simulation environment |
+| C# | Physics logic and interaction programming |
+| Git | Version control |
+| Unity UI System | Application interface and navigation |
+
+---
+
+## My Contributions
+
+As a developer on this project, I was mainly responsible for:
+
+- Designing and implementing the application's user interface
+- Creating the simulation selection menu and navigation system
+- Developing C# scripts for simulation logic
+- Implementing physics interactions within Unity
+- Integrating different simulation scenes into a unified application
+
+---
+
+## Project Structure
 
 
 
+---
+
+## Challenges
+
+During development, we faced several technical challenges:
+
+- Learning and applying C# in a Unity environment
+- Translating physics equations into realistic simulations
+- Managing interactions between multiple objects
+- Designing a clear and intuitive user interface
+- Organizing the project architecture to keep the code maintainable
+
+---
+
+## Future Improvements
+
+Possible improvements for future versions include:
+
+- Expanding simulations into full 3D environments
+- Adding more interactive controls for modifying physical parameters
+- Implementing data visualization and graphs
+- Improving realism of electromagnetic interactions
+- Adding more educational features for students
+
+---
+
+## Screenshots
+
+### Main Menu
+
+<img width="1703" height="893" alt="image" src="https://github.com/user-attachments/assets/706a0837-cb6c-4c55-9b35-05d26b0bf170" />
 
 
- 
+
+### Simulation Example
+
+<img width="1273" height="575" alt="SS pendule" src="https://github.com/user-attachments/assets/374853a4-0067-4136-8aac-56198ca9a25f" />
 
 
+
+### Circuit Simulation
+
+<img width="1275" height="572" alt="SS circuit" src="https://github.com/user-attachments/assets/8ccc9139-ba97-4c5f-b12a-93810e885357" />
+
+
+---
+
+## Authors
+
+Developed by:
+
+- Joe Khazzaka
+- Rafayel Petrosyan
+- Leonard Cuptor
